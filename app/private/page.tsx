@@ -36,7 +36,7 @@ export default function Home() {
               <OpenInV0Button name="dinex-hero" className="w-fit" />
             </div>
             <div className="relative overflow-hidden rounded-md">
-              <DanielHeroDemo />
+              <DanielHeroDemo isPrivate={true} />
             </div>
           </div>
           {/* Dinex parallax Component */}
@@ -51,7 +51,7 @@ export default function Home() {
               <OpenInV0Button name="dinex-parallax" className="w-fit" />
             </div>
             <div className="relative">
-              <ParallaxDemo />
+              <ParallaxDemo isPrivate={true} />
             </div>
           </div>
           {/* Dinex parallax Navbar */}
@@ -67,7 +67,7 @@ export default function Home() {
             </div>
             <div className="relative">
               {/* Add your navbar component here */}
-              <DinexHeroDemo />
+              <DinexHeroDemo isPrivate={true} />
             </div>
           </div>
           {/* Dinex LargeImageAndDescription */}
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <LargeImageAndDescriptionDemo />
+              <LargeImageAndDescriptionDemo isPrivate={true} />
             </div>
           </div>
 
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <RecentPressDemo />
+              <RecentPressDemo isPrivate={true} />
             </div>
           </div>
           {/* Dinex Recent Press */}
@@ -118,7 +118,7 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <BrandsDemo />
+              <BrandsDemo isPrivate={true} />
             </div>
           </div>
         </div>

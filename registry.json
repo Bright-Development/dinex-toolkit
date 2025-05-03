@@ -4,59 +4,81 @@
   "homepage": "https://acme.com",
   "items": [
     {
-      "name": "hello-world",
+      "name": "dinex-hero",
       "type": "registry:component",
-      "title": "Hello World",
-      "description": "A simple hello world component",
-      "registryDependencies": ["button"],
+      "title": "Dinex Hero Section",
+      "description": "Hero section with customizable background image, headline, and CTA for Dinex restaurant",
+      "dependencies": ["lucide-react", "react-fast-marquee"],
       "files": [
         {
-          "path": "registry/new-york/hello-world/hello-world.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "example-form",
-      "type": "registry:component",
-      "title": "Example Form",
-      "description": "A contact form with Zod validation.",
-      "dependencies": ["zod"],
-      "registryDependencies": ["button", "input", "label", "textarea", "card"],
-      "files": [
-        {
-          "path": "registry/new-york/example-form/example-form.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "complex-component",
-      "type": "registry:component",
-      "title": "Complex Component",
-      "description": "A complex component showing hooks, libs and components.",
-      "registryDependencies": ["card"],
-      "files": [
-        {
-          "path": "registry/new-york/complex-component/page.tsx",
-          "type": "registry:page",
-          "target": "app/pokemon/page.tsx"
-        },
-        {
-          "path": "registry/new-york/complex-component/components/pokemon-card.tsx",
+          "path": "registry/dinex-components/hero/hero.tsx",
           "type": "registry:component"
         },
         {
-          "path": "registry/new-york/complex-component/components/pokemon-image.tsx",
-          "type": "registry:component"
-        },
-        {
-          "path": "registry/new-york/complex-component/lib/pokemon.ts",
-          "type": "registry:lib"
-        },
-        {
-          "path": "registry/new-york/complex-component/hooks/use-pokemon.ts",
+          "path": "registry/dinex-components/hero/hero-utils.ts",
           "type": "registry:hook"
+        }
+      ]
+    },
+    {
+      "name": "dinex-parallax",
+      "type": "registry:component",
+      "title": "Dinex Parallax",
+      "description": "Parallax effect",
+      "dependencies": ["gsap", "react-responsive"],
+      "files": [
+        {
+          "path": "registry/dinex-components/parallax/parallax.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dinex-navbar",
+      "type": "registry:component",
+      "title": "Dinex navbar",
+      "description": "Navbar component for Dinex restaurant",
+      "dependencies": ["gsap", "react-responsive"],
+      "files": [
+        {
+          "path": "registry/dinex-components/navbar/navbar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dinex-largeImageAndDescription",
+      "type": "registry:component",
+      "title": "Dinex Large Image and Description",
+      "description": "Large image and description component for Dinex restaurant",
+      "files": [
+        {
+          "path": "registry/dinex-components/largeImageAndDescription/largeImageAndDescription.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dinex-recentPress",
+      "type": "registry:component",
+      "title": "Dinex Recent Press",
+      "description": "Recent press section for Dinex restaurant",
+      "files": [
+        {
+          "path": "registry/dinex-components/recentPress/recentPress.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dinex-brands",
+      "type": "registry:component",
+      "title": "Dinex Brands",
+      "description": "Brands section for Dinex restaurant",
+      "files": [
+        {
+          "path": "registry/dinex-components/brands/brands.tsx",
+          "type": "registry:component"
         }
       ]
     }
