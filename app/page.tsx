@@ -8,6 +8,7 @@ import DinexHeroDemo from "@/registry/dinex-components/navbar/navbar-demo";
 import BrandsDemo from "@/registry/dinex-components/brands/brands-demo";
 import RecentPressDemo from "@/registry/dinex-components/recentPress/recentPress-demo";
 import LargeImageAndDescriptionDemo from "@/registry/dinex-components/largeImageAndDescription/largeImageAndDescription.demo";
+import CarouselDemo from "@/registry/dinex-components/carousel/carousel-demo";
 
 // This page displays items from the custom registry.
 // You are free to implement this with your own design as needed.
@@ -119,6 +120,22 @@ export default function Home() {
 
             <div className="relative">
               <BrandsDemo />
+            </div>
+          </div>
+          {/* Dinex Carousel */}
+          <div className="flex flex-col gap-4 rounded-lg border p-4">
+            <div className="mb-2 flex items-center justify-between">
+              <div>
+                <h2 className="text-xl font-semibold">Dinex Carousel</h2>
+                <p className="text-sm text-muted-foreground">
+                  Carousel section with images and descriptions
+                </p>
+              </div>
+              <OpenInV0Button name="dinex-large-image" className="w-fit" />
+            </div>
+
+            <div className="relative">
+              <CarouselDemo />
             </div>
           </div>
         </div>

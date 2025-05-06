@@ -81,6 +81,23 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "dinex-carousel",
+      "type": "registry:component",
+      "title": "Dinex Carousel",
+      "description": "Carousel component for Dinex restaurant",
+      "dependencies": ["embla-carousel-react"],
+      "files": [
+        {
+          "path": "registry/dinex-components/carousel/carousel.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/dinex-components/carousel/carousel-utils.ts",
+          "type": "registry:hook"
+        }
+      ]
     }
   ]
 }
